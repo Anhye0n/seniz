@@ -1,0 +1,244 @@
+button {
+    cursor: pointer;
+}
+
+.show_r {
+    position: static;
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: NanumSquareRoundB;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+    background: #eb6f65;
+    color: #FFFFFF;
+}
+
+.show_r:hover {
+    position: static;
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: NanumSquareRoundB;
+    border: none;
+    border-radius: 20px;
+    background: #636363;
+    transition: 0.5s;
+    color: #ffffff;
+    background: #ce6159;
+    color: #FFFFFF;
+
+}
+
+.show_ {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: NanumSquareRoundB;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+    bottom: 0px;
+    background: #eb6f65;
+    color: #FFFFFF;
+}
+
+.show_:hover {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: NanumSquareRoundB;
+    border: none;
+    border-radius: 20px;
+    background: #636363;
+    transition: 0.5s;
+    color: #ffffff;
+    bottom: 0px;
+    background: #ce6159;
+    color: #FFFFFF;
+
+}
+
+.show_di {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: NanumSquareRoundB;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+    bottom: 100px;
+    background: #ebacaa;
+    color: #FFFFFF;
+}
+
+.show_di:hover {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: NanumSquareRoundB;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+    bottom: 100px;
+    background: #c6918f;
+
+}
+
+#save {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: NanumSquareRoundB;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+    bottom: 0px;
+    background: #eb6f65;
+    color: #FFFFFF;
+}
+
+#save:hover {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: NanumSquareRoundB;
+    border: none;
+    border-radius: 20px;
+    background: #636363;
+    transition: 0.5s;
+    color: #ffffff;
+    bottom: 0px;
+    background: #222e50;
+    color: #FFFFFF;
+}
+
+.word_box {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    transition: 0.5s;
+
+}
+
+.content_word {
+    background: #0b0b0b;
+    color: #ffffff;
+}
+
+#confirm {
+    margin-top: 10px;
+}
+
+#title_page {
+    position: relative;
+}
+
+.stage {
+    padding-left: 25px;
+}
+
+.stage_text {
+    padding-top: 8px;
+    font-size: 50px;
+    color: #eb6f65;
+    font-family: NanumSquareRoundEB;
+
+}
+
+.stage_text_explain {
+    margin-top: -20px;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: #000000;
+    font-family: NanumSquareRoundL;
+}
+
+.stage_img {
+    width: 100px;
+}
+
+.stage_img_grid {
+    padding-top: 15px;
+}
+
+.notes {
+    width: 100%;
+    border-radius: 10px;
+    height: 60px;
+    font-family: NanumSquareRoundL;
+    font-size: 25px;
+    padding-left: 15px;
+    border: 3px solid #eb6f65;
+    margin-top: -30px;
+    padding-right: 15px;
+
+}
+
+.notes_1 {
+    width: 100%;
+    border-radius: 10px;
+    font-family: NanumSquareRoundL;
+    font-size: 25px;
+    padding-left: 15px;
+    border: 3px solid #eb6f65;
+    margin-top: -30px;
+    padding-right: 15px;
+    padding-top: 2px;
+    background: #FFFFFF;
+}
+
+.notes_2 {
+    width: 100%;
+    border-radius: 10px;
+    height: 60px;
+    font-family: NanumSquareRoundL;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 3px solid #eb6f65;
+    margin-top: -30px;
+}
+
+.mark_box {
+    font-size: 20px;
+    width: 170px;
+    height: 70px;
+    border-radius: 15px;
+    background: #eb6f65;
+    margin-left: 10px;
+    margin-bottom: -5px;
+}
+
+.mark_text {
+    color: #FFFFFF;
+    font-family: NanumSquareRoundB;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}

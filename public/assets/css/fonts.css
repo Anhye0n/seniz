@@ -1,0 +1,43 @@
+@font-face {
+    font-family: virgo;
+    src: url("../fonts/virgo-01/virgo.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Akrobat-Regular;
+    src: url("../fonts/Akrobat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: moon-Regular;
+    src: url("../fonts/Moon2.0-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NanumGothicR;
+    src: url("../fonts/NanumBarunGothic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: NanumMyeongjo;
+    src: url("../fonts/NanumMyeongjo.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: NanumSquareRoundB;
+    src: url("../fonts/NanumSquareRoundB.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: NanumSquareRoundEB;
+    src: url("../fonts/NanumSquareRoundEB.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: NanumSquareRoundL;
+    src: url("../fonts/NanumSquareRoundL.ttf") format("truetype");
+}
+@font-face {
+    font-family: NanumSquareRoundR;
+    src: url("../fonts/NanumSquareRoundR.ttf") format("truetype");
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- jQuery 1.3: -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('p').mouseup(function(){
+                var txt = '';
+                if (window.getSelection) {
+                    txt = window.getSelection();
+                } else if (document.getSelection) {
+                    txt = document.getSelection();
+                } else if (document.selection) {
+                    txt = document.selection.createRange().text;
+                } else {
+                    return;
+                }
+
+                txt = String(txt); // Type Casting
+                // txt = "" + txt; // 같음. 역시 자바스크립트
+
+                $('input').val(txt);
+            });
+        });
+    </script>
+</head>
+<body>
+<p>asbddefdfdvfvdfgf</p>
+<p>가나다라마바사아자!</p>
+<input style="width: 300px; " type="text" />
+</body>
+</html>
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>

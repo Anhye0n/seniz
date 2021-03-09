@@ -1,0 +1,93 @@
+button {
+    cursor: pointer;
+}
+
+.stage {
+    padding-left: 25px;
+}
+
+.stage_text {
+    padding-top: 8px;
+    font-size: 50px;
+    color: #eb6f65;
+    font-family: NanumSquareRoundEB;
+
+}
+
+.stage_text_explain {
+    margin-top: -20px;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: #000000;
+    font-family: NanumSquareRoundL;
+}
+button {
+    cursor: pointer;
+}
+
+.show_ {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: NanumSquareRoundB;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+    bottom: 0px;
+    background: #eb6f65;
+    color: #FFFFFF;
+}
+
+.show_:hover {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: NanumSquareRoundB;
+    border: none;
+    border-radius: 20px;
+    background: #636363;
+    transition: 0.5s;
+    color: #ffffff;
+    bottom: 0px;
+    background: #ce6159;
+    color: #FFFFFF;
+
+}
+
+.stage {
+    padding-left: 25px;
+}
+
+.stage_text {
+    padding-top: 8px;
+    font-size: 50px;
+    color: #eb6f65;
+    font-family: NanumSquareRoundEB;
+
+}
+
+.stage_text_explain {
+    margin-top: -20px;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: #000000;
+    font-family: NanumSquareRoundL;
+}
+
+.notes_1 {
+    width: 100%;
+    min-height: 549px;
+    border-radius: 10px;
+    font-family: NanumSquareRoundL;
+    font-size: 25px;
+    padding-left: 15px;
+    border: 3px solid #eb6f65;
+    margin-top: -30px;
+    padding-right: 15px;
+    padding-top: 2px;
+    background: #FFFFFF;
+}
